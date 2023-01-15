@@ -3,11 +3,34 @@
     color:rgb(0, 0, 0);
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
+}
+
+header li {
+    display:inline;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 180px;
+}
+
+.articles article {
+    width: 30%;
 }
 
 body {
     background-color: rgb(219, 219, 219);
-    
 }
 
 h1 {
@@ -17,23 +40,28 @@ h1 {
 }
 
 h2 {
-    color: green;
+    color: rgb(170, 228, 170);
+    background-color: green;
+
 }
 
-/* # para chamar o ID=""  */
+
 #SecEconomy h2 {
-    color: rgb(224, 146, 0);
+    color: rgb(255, 229, 180);
+    background-color: rgb(224, 146, 0);
 }
 
 #SecPolítica h2 {
-    color: blue;
+    color: rgb(175, 175, 255);
+    background-color: blue;
 }
 
 #SecTech h2 {
-    color: rgb(143, 0, 0);
+    color: rgb(241, 166, 166);
+    background-color: rgb(143, 0, 0);
 }
 
-/* . para chamar uma classe class="" */
+
 .creation-date {
     color: rgb(102, 102, 102);
 }
@@ -44,4 +72,5 @@ a {
 
 footer {
     color: rgba(0, 0, 0, 0.315);
+    text-align: center;
 }
