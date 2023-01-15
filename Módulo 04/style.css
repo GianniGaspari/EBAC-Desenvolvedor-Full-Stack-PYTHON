@@ -25,10 +25,23 @@ h2 {
     color: rgb(224, 146, 0);
 }
 
+#SecPolítica h2 {
+    color: blue;
+}
+
+#SecTech h2 {
+    color: rgb(143, 0, 0);
+}
+
 /* . para chamar uma classe class="" */
 .creation-date {
     color: rgb(102, 102, 102);
 }
 
+a {
+    color: rgb(133, 0, 0);
+}
 
-
+footer {
+    color: rgba(0, 0, 0, 0.315);
+}
