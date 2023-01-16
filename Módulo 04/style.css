@@ -6,8 +6,27 @@
     padding: 0;
 }
 
+body > header {
+    background-color: rgb(207, 205, 201);
+    padding: 16px 0;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 header li {
     display:inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
 }
 
 .container {
@@ -22,17 +41,44 @@ header li {
 }
 
 .articles article img {
-    height: 180px;
+    /* height: 180px; */
+    width: 100%;
 }
 
 .articles article {
     width: 30%;
 }
 
+section{
+    padding: 16px 0;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.articles article a {
+    background-color: rgba(177, 177, 255, 0.39);
+    color: rgb(133, 0, 0);
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
+.articles article a:hover {
+    text-decoration: underline;
+}
+
 body {
     background-color: rgb(219, 219, 219);
 }
-
+/*
 h1 {
     color: rgb(32, 61, 32);
     padding: 2px 1px 3px 4px;
@@ -43,12 +89,34 @@ h2 {
     color: rgb(170, 228, 170);
     background-color: green;
 
+}*/
+
+#SecSports h2 {
+    color: rgb(170, 228, 170);
+    background-color: green
 }
 
+#SecSports {
+    background-color: rgb(194, 240, 194);
+}
+
+#SecSports .articles article a{
+    background-color: rgb(89, 180, 89);
+    color: black;
+}
 
 #SecEconomy h2 {
     color: rgb(255, 229, 180);
     background-color: rgb(224, 146, 0);
+}
+
+#SecEconomy {
+    background-color: rgb(255, 229, 180);
+}
+
+#SecEconomy .articles article a{
+    background-color: rgb(236, 183, 84);
+    color: black;
 }
 
 #SecPolítica h2 {
@@ -56,21 +124,48 @@ h2 {
     background-color: blue;
 }
 
+#SecPolítica {
+    background-color: rgb(219, 219, 253);
+}
+
+#SecPolítica .articles article a{
+    background-color: rgb(160, 160, 248);
+    color: black;
+}
+
 #SecTech h2 {
     color: rgb(241, 166, 166);
     background-color: rgb(143, 0, 0);
 }
 
+#SecTech {
+    background-color: rgb(252, 216, 216);
+}
+
+#SecTech .articles article a{
+    background-color: rgb(245, 149, 149);
+    color: black;
+}
 
 .creation-date {
     color: rgb(102, 102, 102);
 }
 
-a {
-    color: rgb(133, 0, 0);
-}
 
 footer {
     color: rgba(0, 0, 0, 0.315);
     text-align: center;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
 }
