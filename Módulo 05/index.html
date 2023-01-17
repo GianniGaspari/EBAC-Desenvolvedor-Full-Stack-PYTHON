@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Games Shop - A sua loja de games</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <title>Games Shop - A sua loja de games</title>
 </head>
 <body>
     <header>
@@ -17,26 +17,22 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Sobre a loja</a>
+                        <a href="#about">Sobre a loja</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section>
+    <section id="about">
         <div class="container">
-            <img class="fachada" src="Images/loja.jpg" alt="Fachada da Loja Games Shop">
+            <img class="fachada" src="Images/loja.jpg" alt="Fachada da loja">
             <div>
                 <h2>Sobre a loja</h2>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, debitis. Laudantium nisi distinctio quo aperiam recusandae a, natus sint temporibus ea animi harum, molestiae, ad non doloribus inventore. Nobis, tempora.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni error laborum quidem itaque animi omnis tenetur? Perspiciatis, molestias alias. Ullam, aut quis! Ab maiores, qui expedita tempore eligendi dolores incidunt.
-                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil molestiae officia recusandae atque autem ut nemo error odit voluptatum assumenda adipisci dolorem doloremque molestias, non in unde. Facere, quibusdam error.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur officia rerum quod, laudantium deleniti aperiam nam accusamus velit fugit quos dicta voluptate assumenda obcaecati consequuntur, harum numquam quam aliquam unde?</p>
                 <ul class="brandslist">
                     <li><img src="Images/nintendo.png" alt="Nintendo"></li>
                     <li><img src="Images/xbox.png" alt="Xbox"></li>
@@ -52,10 +48,10 @@
                 <div>
                     <h3>Fale conosco</h3>
                     <form>
-                        <input type="text" placeholder="Seu nome"/>
-                        <input type="email" placeholder="Seu email"/>
-                        <input type="tel" placeholder="Seu telefone (opcional)"/>
-                        <textarea placeholder="Sua mensagem"></textarea>
+                        <input type="text" placeholder="Nome" required/>
+                        <input type="email" placeholder="Email" required/>
+                        <input type="tel" placeholder="NomeTelefone(opcional)"/>
+                        <textarea placeholder="Digite aqui sua mensagem" required></textarea>
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
@@ -63,30 +59,35 @@
                     <h3>Nos acompanhe</h3>
                     <ul class="socialLinks">
                         <li>
-                            <a href="#" title="Siga-nos no Instagram">
-                                <img src="Images/instagram.png" alt="Logo instagram">
+                            <a href="#" title="Siga nos no Instagram">
+                                <img src="Images/instagram.png" alt="Logo Instagram">
                             </a>
                         </li>
                         <li>
-                            <a href="#" title="Siga-nos no Facebook">
-                                <img src="Images/facebook.png" alt="Logo facebook">
+                            <a href="#" title="Siga nos no Facebook">
+                                <img src="Images/facebook.png" alt="Logo Facebook">
                             </a>
                         </li>
                         <li>
-                            <a href="#" title="Siga-nos no Youtube">
-                                <img src="Images/youtube.png" alt="Logo youtube">
+                            <a href="#" title="Acompanhe também no Youtube">
+                                <img src="Images/youtube.png" alt="Logo Youtube">
                             </a>
                         </li>
                     </ul>
                 </div>
-                <div class="visita">
-                    <h3>Faça uma visita</h3>
-                    <p>
-                        Rua Lorem Lorem nº 126, Vila CSS, bairro HTML - Florianópolis SC
-                    </p>
+                <div>
+                    <h3>Nos visite</h3>
+                    <p>Rua dos Bobos, nº 0. Vila HTML. Bairro CSS - Florianópolis</p>
                 </div>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Games Shop - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
