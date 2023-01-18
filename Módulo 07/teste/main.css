@@ -1,57 +1,63 @@
 * {
     font-family: 'Lilita One', cursive;
     font-family: 'Rowdies', cursive;
-    background-color: #050c05;
-    color: #46b44a;
+    background-color: #020702;
+    color: #00df0bb7;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-  }
-  
-  th, td {
+}
+
+th, td {
     background-color: #0b250b;
     border: 1px solid rgb(56, 105, 58);
     padding: 8px;
-    color: #012403;
-  }
-  
-  td {
+    color: #84d487;
+}
+
+td {
     color: #46b44a;
-  }
-  
-  /* Add some colors to the table */
-  th {
+}
+
+/* Add some colors to the table */
+th {
     background-color: #438545;
-  }
-  
-  tr:nth-child(even) {
+}
+
+tr:nth-child(even) {
     background-color: #438545;
-  }
-  
-  tr:nth-child(odd) {
+}
+
+tr:nth-child(odd) {
     background-color: #438545;
-  }
-  
-  /* Add some colors to the form */
-  label {
+}
+
+/* Add some colors to the form */
+label {
     color: #333;
-  }
-  
-  input {
+}
+
+input {
     padding: 12px;
     margin-bottom: 20px;
     border-radius: 4px;
     border: 1px solid #ddd;
-    border-color: #5caa5e;
-  }
-  
-  ::placeholder {
-    color: #46b44a;
-  }
+    border-color: #32b136;
+    cursor: pointer;
+}
 
-  #btn-enviar {
+::placeholder {
+    color: #63a565;
+}
+
+input:hover {
+    outline-color: #46b44a;
+    border: solid;
+}
+
+#btn-enviar {
     background-color: #46b44a;
     color: black;
     padding: 12px 20px;
@@ -59,8 +65,10 @@ table {
     border-radius: 4px;
     cursor: pointer;
     margin-top: 20px;
-  }
+}
 
 #btn-enviar:hover {
-    background-color: #46b44a;
+    background-color: #14db1b;
+    border: solid;
+    border-color: #32b136;
 }
