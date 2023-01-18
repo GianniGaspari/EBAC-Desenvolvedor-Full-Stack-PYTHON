@@ -1,32 +1,32 @@
 window.onload = function() {
-    const registerBtn = document.querySelector("#register-btn");
+    const registerBtn = document.querySelector("#btn-enviar");
 registerBtn.addEventListener("click", addContact);
 
 function addContact(e) {
   e.preventDefault();
-  const name = document.querySelector("#name").value;
-  const telephone = document.querySelector("#telephone").value;
-  const address = document.querySelector("#address").value;
+  const nome = document.querySelector("#nome").value;
+  const telefone = document.querySelector("#telefone").value;
+  const endereço = document.querySelector("#endereço").value;
   
   const contactList = document.querySelector("#contact-list");
   const row = document.createElement("tr");
-  const nameCol = document.createElement("td");
-  const telephoneCol = document.createElement("td");
-  const addressCol = document.createElement("td");
+  const nomeCol = document.createElement("td");
+  const telefoneCol = document.createElement("td");
+  const endereçoCol = document.createElement("td");
   
-  nameCol.innerHTML = name;
-  telephoneCol.innerHTML = telephone;
-  addressCol.innerHTML = address;
+  nomeCol.innerHTML = nome;
+  telefoneCol.innerHTML = telefone;
+  endereçoCol.innerHTML = endereço;
   
-  row.appendChild(nameCol);
-  row.appendChild(telephoneCol);
-  row.appendChild(addressCol);
+  row.appendChild(nomeCol);
+  row.appendChild(telefoneCol);
+  row.appendChild(endereçoCol);
   
   contactList.appendChild(row);
   
-  document.querySelector("#name").value = "";
-  document.querySelector("#telephone").value = "";
-  document.querySelector("#address").value = "";
+  document.querySelector("#nome").value = "";
+  document.querySelector("#telefone").value = "";
+  document.querySelector("#endereço").value = "";
     }    
 };
  

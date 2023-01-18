@@ -6,18 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="javascript" type="text/javascript" href="main.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Rowdies&display=swap" rel="stylesheet">
     <title>Teste</title>
 </head>
 <body>
     <script src="main.js"></script>
     <div id="app">
-        <h1>Contact Book</h1>
+        <h1>Agenda de contatos</h1>
         <table>
           <thead>
             <tr>
-              <th>Name</th>
-              <th>Telephone</th>
-              <th>Address</th>
+              <th>Nome</th>
+              <th>Telefone</th>
+              <th>Email</th>
             </tr>
           </thead>
           <tbody id="contact-list">
@@ -25,18 +28,15 @@
         </table>
         <form>
           <label>
-            Name:
-            <input type="text" id="name">
+            <input type="text" placeholder="Nome" id="nome">
           </label>
           <label>
-            Telephone:
-            <input type="text" id="telephone">
+            <input type="tel" placeholder="Telefone" id="telefone">
           </label>
           <label>
-            Address:
-            <input type="text" id="address">
+            <input type="email" placeholder="Email" id="endereço">
           </label>
-          <button type="submit" id="register-btn">Register</button>
+          <button type="submit" id="btn-enviar">Enviar</button>
         </form>
       </div>   
 </body>
