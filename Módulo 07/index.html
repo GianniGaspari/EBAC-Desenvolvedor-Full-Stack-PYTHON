@@ -6,18 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML com JS</title>
     <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h1>EBAC Banking</h1>
+        <h1>GIANNI Banking</h1>
         <h2>Depósitos</h2>
         <form id="form-deposito">
             <input type="text" id="nome-beneficiario" required placeholder="Nome completo do beneficiário" />
+            <p class="error-message">
+                Por favor, nome completo ↑
+            </p>
             <input type="number" id="numero-conta" required placeholder="Número da conta" />
             <input type="number" id="valor-deposito" required placeholder="Valor" />
             <textarea id="descricao" placeholder="Descrição (opcional)"></textarea>
             <button type="submit" id="btn-depositar">Depositar</button>
         </form>
+        <p class="success-message"></p>
     </div>
     <script src="main.js"></script>
 </body>
