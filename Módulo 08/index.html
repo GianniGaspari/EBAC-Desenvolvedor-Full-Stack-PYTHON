@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Calculadora de médias</title>
+</head>
+<body>
+    <div class="container">
+        <span class="box">
+            <header>
+                <img src="images/logo.png" alt="capelo e diploma">
+                <h1>Calculadora de médias</h1>
+            </header>
+            <form id="formAtividade">
+                <input type="text" id="nomeAtividade" required placeholder="Nome da atividade"/>
+                <input type="number" id="notaAtividade" required placeholder="Nota" min="0" max="10"/>
+                <button type="submit">Adicionar</button>
+            </form>
+        </span>
+        <!--
+        <header>
+            <img src="images/logo.png" alt="capelo e diploma">
+            <h1>Calculadora de médias</h1>
+        </header>
+        <form id="formAtividade">
+            <input type="text" id="nomeAtividade" required placeholder="Nome da atividade"/>
+            <input type="number" id="notaAtividade" required placeholder="Nota" min="0" max="10"/>
+            <button type="submit">Adicionar</button>
+        </form>
+    -->
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        Nome da atividade
+                    </th>
+                    <th>
+                        Nota da atividade
+                    </th>
+                    <th>
+                        Aprovado?
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <foot>
+                <tr>
+                    <td>Média Final</td>
+                    <td id="mediaFinalValor">---</td>
+                    <td id="mediaFinalResultado"><span class="reprovado"></span></td>
+                </tr>
+            </foot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+body {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+header img {
+    height: 100px;
+    margin-right: 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+span header {
+    width: 640px;
+    border: 2px solid rgba(255, 0, 0, 0.308);
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 22px;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid rgb(35, 255, 27);
+    padding: 8px;
+}
+
+form button {
+    background-color: rgb(0, 105, 0);
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+}
+
+form #nomeAtividade {
+    text-align: center;
+}
+
+form #notaAtividade {
+    width: 100px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+}
+
+table th {
+    border-bottom: 2px solid white;
+    padding: 16px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.226);
+}
+
+table td img {
+    width: 30px;
+}
+
+.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: black;
+    background-color: rgb(0, 216, 54);
+    border-radius: 3px;
+}
+
+.aprovado {
+    background-color: rgb(1, 243, 62);
+    border-radius: 3px;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.reprovado {
+    background-color: rgb(255, 0, 13);
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+    padding: 8px;
+    font-weight: bold;
+}
