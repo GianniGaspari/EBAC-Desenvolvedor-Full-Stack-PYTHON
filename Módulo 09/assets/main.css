@@ -24,6 +24,7 @@ form {
     background-color: #c8d6e5;
     padding: 24px 0;
     text-align: center;
+    display: none;
 }
 
 form h2 {
@@ -47,6 +48,6 @@ button:hover {
     background-color: #00b33c;
 }
 
-#botao-cancelar {
+#botao-fechar {
     background-color: rgb(211, 4, 4);
 }
