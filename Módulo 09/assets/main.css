@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background-color: #5f27cd;
+    padding: 16px 0;
+    color: white;
+    display: flex;
+    border-bottom: 16px solid #341f97;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: oblique;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+form {
+    background-color: #c8d6e5;
+    padding: 24px 0;
+    text-align: center;
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: #009431;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+}
+
+button:hover {
+    background-color: #00b33c;
+}
+
+#botao-cancelar {
+    background-color: rgb(211, 4, 4);
+}
