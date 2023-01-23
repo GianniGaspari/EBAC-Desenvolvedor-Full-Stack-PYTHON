@@ -3,25 +3,32 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
+    background-color: black;
 }
 
 header {
-    background-color: #5f27cd;
+    background-color: #3f0f9e;
     padding: 16px 0;
     color: white;
     display: flex;
-    border-bottom: 16px solid #341f97;
+    border-bottom: 16px solid #220e7a;
     justify-content: center;
     text-transform: uppercase;
     font-style: oblique;
 }
 
 header button {
-    margin-left: 16px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+
+h1 {
+    background-color: #3f0f9e;
 }
 
 form {
-    background-color: #c8d6e5;
+    background-color: #000000;
+    color: white;
     padding: 24px 0;
     text-align: center;
     display: none;
@@ -36,18 +43,73 @@ input, button {
 }
 
 button {
-    background-color: #009431;
+    background-color: #00b33c;
     border: none;
     cursor: pointer;
-    font-weight: 400;
+    font-weight: lighter;
     text-transform: uppercase;
     color: white;
 }
 
 button:hover {
-    background-color: #00b33c;
+    background-color: #009431;
 }
 
 #botao-fechar {
     background-color: rgb(211, 4, 4);
+}
+
+#botao-fechar:hover {
+    background-color: rgb(160, 12, 12);
+}
+
+input#endereco-imagem-nova {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+input#endereco-imagem-nova:hover {
+    background-color: rgb(234, 253, 206);
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    max-width: 25%;
+    list-style: none;
+    position: relative;
+    max-height: 240px;  /* diferente */
+    overflow-y: hidden;
+}
+
+ul li img{
+    width: 100%;
+}
+
+.overlay-image-link {
+    padding: 16px;
+    background-color: #000000e3;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all ease .5s;
+}
+
+.overlay-image-link:hover {
+    cursor: pointer;
+}
+
+
+.overlay-image-link a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li:hover .overlay-image-link {
+    opacity: 1;
 }
