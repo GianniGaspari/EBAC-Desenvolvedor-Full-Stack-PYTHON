@@ -1,0 +1,128 @@
+* {
+background-color: #000000;
+color: white;
+font-family: 'Major Mono Display', monospace;
+margin-left: 3px;
+margin-right: 3px;
+}
+
+body {
+background-color: black;
+}
+
+header {
+background-color: rgb(24, 24, 24);
+display: flex;
+margin: auto;
+border: 1px;
+border-color: red;
+border-radius: 5px;
+padding: 5px;
+}
+
+header img {
+margin-left: auto;
+width: 100px;
+height: 100px;
+display: flex;
+border-radius: 50px;
+}
+
+header a {
+margin-left: auto;
+width: 100px;
+height: 100px;
+display: flex;
+border-radius: 50px;
+padding: 16px;
+border: 3px;
+border-color: #00b906;
+}
+
+header h1 {
+display: flex;
+width: 250px;
+height: 60px;
+background-color: rgb(0, 0, 0);
+margin: auto;
+margin-right: 550px;
+padding: 16px;
+justify-content: center;
+border-radius: 4px;
+color: white;
+}
+
+button {
+background-color: rgb(0, 206, 0);
+cursor: pointer;
+width: 50px;
+height: 50px;
+border-radius: 5px;
+color: black;
+display: inline;
+justify-content: center;
+font-size: larger;
+}
+
+::placeholder {
+color: #00b906;
+font-weight: bold;
+}
+
+input:focus {
+outline-color: #e400e4;
+outline-style: double;
+}
+
+button:hover {
+background-color: rgb(0, 255, 0);
+}
+
+.tarefaRealizada {
+text-decoration: line-through 5px #01A3F2;
+}
+
+div#paraFazer {
+padding: 20px;
+}
+
+input#nomeTarefa {
+border-color: #d600d6;
+border-style: double;
+width: 1100px;
+height: 30px;
+color: #00b906;
+text-align: center;
+align-items: center;
+margin-left: 100px;
+}
+
+input#nomeTarefa:hover {
+border-color: #ff00ff;
+color: #00b906;
+transform: scale(102%);
+}
+
+img#fotoFundo {
+width: 99.5%;
+max-height: 700px;
+border-radius: 3px;
+}
+
+
+li {
+max-width: fit-content;
+margin-top: 10px;
+margin-left: 100px;
+font-size: large;
+font-weight: bold;
+color: red;
+}
+
+li:hover {
+cursor:pointer;
+}
+
+footer {
+    text-align: center;
+}
