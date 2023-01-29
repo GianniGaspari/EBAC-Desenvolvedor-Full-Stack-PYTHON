@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li {
+            width: 100%;
+            list-style-type: none;
+        }
+
+        li img {
+            width: 100%;
+        }
+
+        @media screen and (min-width: 1366px) {  /* resolução de smartphones 640px */
+            li {
+                max-width: 33%;
+                float: left;
+            }
+        }
+
+        @media screen and (orientation: portrait) and (max-width: 640px) {
+            body {
+                background-color: red;
+            }
+        }
+
+        /* resolução de impressão */
+        @media print {
+            h3 {
+                color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <img src="img/bunny.png" alt="Bunny">
+            <h3>CyberPunk Bunny</h3>
+        </li>
+        <li>
+            <img src="img/bunny.png" alt="Bunny">
+            <h3>CyberPunk Bunny</h3>
+        </li>
+        <li>
+            <img src="img/bunny.png" alt="Bunny">
+            <h3>CyberPunk Bunny</h3>
+        </li>
+    </ul>
+</body>
+</html>
