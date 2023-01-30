@@ -26,7 +26,7 @@ header .container {
 }
 
 header {
-    background-color: #192a56;
+    background-color: #2a4ea7;
     padding-top: 16px;
     color: white;
     padding: 16px 0 0;
@@ -53,11 +53,12 @@ button {
     border-radius: 3px;
 }
 button:hover {
+    background-color: rgb(243, 242, 242);
     cursor: pointer;
 }
 
 nav.container {
-    background-color: #2a4ea7;
+    background-color: #192a56;
     border-radius: 10px;
 }
 
@@ -69,11 +70,11 @@ nav.container {
 .submenu {
     display: none;
     position: absolute;
-    border: 1px solid rgb(2, 0, 129);
+    border: 2px solid rgba(0, 238, 255, 0.699);
     border-radius: 10px;
-    background-color: #2a4ea7;
+    background-color: #192a56;
     left: 0;
-    max-width: 150px;
+    max-width: 135px;
     width: 300px;
     top: 100%;
 }
@@ -81,6 +82,7 @@ nav.container {
 .submenu a {
     color: white;
     text-decoration: none;
+    margin-left: 5px;
 }
 
 .submenu a:hover {
