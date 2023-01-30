@@ -1,19 +1,21 @@
-<!DOCTYPE html>
+!<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal de Notícias</title>
+    <title>Mercado Tech</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Gianni News</h1>
+            <h1>Mercado Tech</h1>
             <form>
                 <input type="search" placeholder="Busque nos site">
                 <button type="submit">Pesquisar</button>
@@ -25,10 +27,10 @@
         <nav class="container">
             <ul class="menu">
                 <li>
-                    Esportes
+                    Categorias
                     <ul class="submenu">
                         <li>
-                            <a href="#">Futebol</a>
+                            <a href="#">Mais vendidos</a>
                         </li>
                         <li>
                             <a href="#">Basquete</a>
@@ -39,16 +41,30 @@
                     </ul>
                 </li>
                 <li>
-                    Economia
+                    Informática
                     <ul class="submenu">
                         <li>
-                            <a href="#">Bolsa de valores</a>
+                            <a href="#">Mais vendidos</a>
                         </li>
                         <li>
-                            <a href="#">Imposto de renda</a>
+                            <a href="#">Basquete</a>
                         </li>
                         <li>
-                            <a href="#">Cripto</a>
+                            <a href="#">Fórmula 1</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Games
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">Mais vendidos</a>
+                        </li>
+                        <li>
+                            <a href="#">Basquete</a>
+                        </li>
+                        <li>
+                            <a href="#">Fórmula 1</a>
                         </li>
                     </ul>
                 </li>
@@ -56,10 +72,15 @@
             <div class="clear"></div>
         </nav>
     </header>
+    <div id="carousel-images">
+        <img src="imgs/slide1.png" alt="Carro Porsche">
+        <img src="imgs/slide2.png" alt="Carro BMW">
+        <img src="imgs/slide3.png" alt="Carro Ford">
+    </div>
     <div class="container conteudo">
         <main>
             <section class="destaque">
-                <h2>Em destaque</h2>
+                <h2>Oferta do dia</h2>
                 <article class="noticia">
                     <a href="#">
                         <img src="https://via.placeholder.com/320x320" alt="">
@@ -70,7 +91,7 @@
                 </article>
             </section>
             <section>
-                <h2>Ultimas notícias</h2>
+                <h2>Mais vendidos</h2>
                 <div class="noticias">
                     <article class="noticia">
                         <a href="#">
@@ -137,13 +158,9 @@
             </section>
         </aside>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function() {
-            $('.botao-menu button').click(function() {
-                $('.menu').slideToggle()
-            })
-        })
-    </script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
