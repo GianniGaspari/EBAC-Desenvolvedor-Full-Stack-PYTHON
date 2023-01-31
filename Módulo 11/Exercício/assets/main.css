@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: #EBEBEB;
+    background-color: #152652;
+    color: white;
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
 }
 
 div.container {
-    padding-bottom: 16px;
+    padding-bottom: 8px;
 }
 
 header .container {
@@ -27,14 +28,22 @@ header .container {
 
 header {
     background-color: #2a4ea7;
-    padding-top: 16px;
     color: white;
-    padding: 16px 0 0;
+    padding: 8px 0 0;
     border-bottom: 1px solid #ccc;
     position: sticky;
     top: 0;
     left: 0;
     z-index: 1;
+}
+
+.logo {
+    float: left;
+}
+
+#imgHead {
+    width: 40px;
+    border-radius: 40px;
 }
 
 input {
@@ -46,14 +55,19 @@ input:hover {
     cursor: text;
 }
 
+input:focus {
+    outline-color: rgba(0, 206, 221, 0.699);
+}
+
 button {
-    background-color: rgb(226, 226, 226);
+    background-color: rgba(0, 238, 255, 0.699);
     width: 80px;
     height: 30px;
     border-radius: 3px;
+    border-color: rgba(0, 68, 73, 0.699);
 }
 button:hover {
-    background-color: rgb(243, 242, 242);
+    background-color: rgba(0, 206, 221, 0.699);
     cursor: pointer;
 }
 
@@ -124,13 +138,77 @@ nav.container {
     max-width: 100%;
 }
 
+.destaque img {
+    width: 329px;
+    border-radius: 5px;
+}
+
+.destaque h2 {
+    margin: 10px 0;
+}
+
+.destaque h3 {
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.destaque h3:hover {
+    text-decoration: 2px underline rgb(0, 238, 255);
+}
+
+.sob {
+    margin-top: 50px;
+}
+
+.sobre {
+    height: 500px;
+}
+
+.destaque p {
+    height: 28px;
+    width: 350px;
+    margin-right: 50px;
+    font-size: 0.7em;
+    background-color: #FFED00;
+    color: blue;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.destaque .sobre p {
+    height: 330px;
+    width: 350px;
+    margin: 0 10px;
+    padding: 5px;
+    font-size: 0.7em;
+    background-color: #3968dd;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    cursor: default;
+}
+
+.destaque .sobre a {
+    cursor: default;
+}
+
+.destaque a{
+    text-decoration: none;
+    color: black;
+}
+
 .destaque {
     margin-bottom: 56px;
+    background-color: #2a4ea7;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .destaque .noticia a {
     display: flex;
     font-size: 2em;
+    color: white;
 }
 
 .destaque .noticia img {
@@ -154,6 +232,63 @@ aside .noticia {
     grid-template-columns: repeat(3, 32.6%);
     column-gap: 1%;
     row-gap: 5%;
+}
+
+.noticias a {
+    text-decoration: none;
+    color: white;
+}
+
+.noticia h3 {
+    text-align: center;
+}
+
+.novidades {
+    background-color: #223e86;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.novidades a {
+    text-decoration: none;
+    color: white;
+}
+
+.novidades a:hover {
+    text-decoration: 2px underline rgb(0, 238, 255);
+    color: white;
+}
+
+.novidades h2 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.novidades img {
+    border-radius: 150px;
+}
+
+#maisVendidos {
+    background-color: #2a4ea7;
+    padding: 5px 5px 100px 5px;
+    border-radius: 10px;
+}
+
+#maisVendidos a:hover {
+    text-decoration: 2px underline rgb(0, 238, 255);
+    color: white;
+}
+
+#maisVendidos img {
+    border-radius: 5px;
+}
+
+#maisVendidos h2 {
+    margin: 10px 0;
+}
+
+#maisVendidos h3:hover {
+    text-decoration: 2px underline rgb(0, 238, 255);
 }
 
 @Media screen and (max-width:767px) {
