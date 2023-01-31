@@ -88,33 +88,33 @@
     </header>
     <div class="container conteudo sob">
         <main>
-            <section class="destaque">
-                <h2>Sobre a loja</h2>
-                <article class="noticia sobre">
-                    <a href="#">
-                        <img src="imgs/MT (3).png" alt="">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis sit nam commodi! Deserunt velit magnam dolorem architecto vero, in quidem, vitae fuga laboriosam, hic cum ut eius enim inventore voluptates.</p>
-                    </a>
-                </article>
-            </section>
+            <form>
+                <div class="form-campo">
+                    <label for="nome">Nome completo *</label>
+                    <input type="text" id="none" name="nome">
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" placeholder="(xx) xxxxx-xxxx" name="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-campo">
+                    <label for="mensagem">Mensagem *</label>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
         </main>
-        <aside>
-            <section class="novidades">
-                <h2>Autor</h2>
-                <article class="noticia">
-                    <a href="#">
-                        <img src="imgs/unnamed.jpeg" alt="">
-                        <h3>
-                            Gianni Gasparinetti Salles
-                        </h3>
-                    </a>
-                </article>
-            </section>
-        </aside>
     </div>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/js/jquery.mask.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/messages_pt_BR.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

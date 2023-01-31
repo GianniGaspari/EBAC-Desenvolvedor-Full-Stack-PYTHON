@@ -60,14 +60,16 @@ input:focus {
 }
 
 button {
-    background-color: rgba(0, 238, 255, 0.699);
+    background-color: rgba(0, 206, 221, 0.699);
+    color: #0d1527;
     width: 80px;
     height: 30px;
     border-radius: 3px;
     border-color: rgba(0, 68, 73, 0.699);
+    font-weight: bolder;
 }
 button:hover {
-    background-color: rgba(0, 206, 221, 0.699);
+    background-color: rgba(0, 238, 255, 0.808); 
     cursor: pointer;
 }
 
@@ -289,6 +291,35 @@ aside .noticia {
 
 #maisVendidos h3:hover {
     text-decoration: 2px underline rgb(0, 238, 255);
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 100%;
+}
+
+form button {
+    max-width: 120px;
 }
 
 @Media screen and (max-width:767px) {
