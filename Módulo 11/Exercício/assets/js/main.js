@@ -27,7 +27,8 @@ $(document).ready(function() {
         messages: {
             nome: 'Por favor, insira seu nome',
             email: 'Por favor, insira um e-mail válido',
-            telefone: 'Por favor, insira um número de telefone válido'
+            telefone: 'Por favor, insira um número de telefone válido',
+            mensagem: 'Por favor, digite algo válido.'
         }
     })
 })

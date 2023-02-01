@@ -79,8 +79,8 @@ nav.container {
 }
 
 #carousel-images {
-    height: 350px;
-    margin-bottom: 20px;
+    display: grid;
+    margin: auto;
 }
 
 .submenu {
@@ -167,9 +167,8 @@ nav.container {
 }
 
 .destaque p {
-    height: 28px;
-    width: 350px;
-    margin-right: 50px;
+    display: grid;
+    margin: auto;
     font-size: 0.7em;
     background-color: #FFED00;
     color: blue;
@@ -342,7 +341,13 @@ form button {
     }
     
     .destaque .noticia img {
-        margin-right: 0;
+        display: grid;
+        margin: auto;
+    }
+
+    #maisVendidos img {
+        display: grid;
+        margin: auto;
     }
 
     .noticias {
@@ -403,6 +408,17 @@ form button {
         font-weight: 800;
         text-transform: uppercase;
     }
+
+    .novidades {
+        margin: 20px auto;
+        display: grid;
+    }
+
+    .novidades .noticia img {
+        display: grid;
+        margin: 0 auto;
+        border-radius: 160px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -421,6 +437,7 @@ form button {
     .noticias {
         grid-template-columns: repeat(2, 49%);
     }
+
 }
 
 @media screen and (min-width: 1024px) {
