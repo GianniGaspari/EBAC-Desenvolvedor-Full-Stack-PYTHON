@@ -1,0 +1,8 @@
+body {
+    background-color: #ccc;
+    padding: 80px;
+}
+
+#preco p {
+    width: 300px;
+}

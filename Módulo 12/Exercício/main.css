@@ -1,0 +1,44 @@
+* {
+    background-color: rgb(219, 219, 219);
+}
+
+body {
+    background-color: rgb(219, 219, 219);
+}
+
+header {
+    text-align: center;
+    padding: 35px 0;
+}
+
+header img {
+    max-width: 100px;
+    border-radius: 50px;
+}
+
+.accordion {
+    margin: auto;
+    max-width: 650px;
+}
+
+.accordion button {
+    background-color: green;
+    color: white;
+    margin: auto;
+    max-width: 100px;
+}
+
+.accordion button:focus {
+    background-color: green;
+    color: white;
+}
+
+
+.post {
+    margin-bottom: 24px;
+}
+
+.col {
+    margin: auto;
+    max-width: 500px;
+}

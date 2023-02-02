@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(219, 219, 219);
+}
+
+a.btn {
+    display: block;
+}
+
+time {
+    display: block;
+}
+
+.post {
+    margin-bottom: 24px;
+}
