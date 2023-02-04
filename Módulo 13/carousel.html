@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Carousel</title>
+    <link rel="stylesheet" href="lib_/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #ccc;
+        }
+        .container {
+            margin: auto;
+        }
+        img {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="4000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2022/10/31/20/27/lioness-7560708_960_720.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Leoa</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="4000" class="carousel-item ">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2022/10/16/13/17/road-7525092_960_720.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Estrada e a serra</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="4000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/01/09/17/50/sea-7707983_960_720.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h2>Porto</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib_/bootstrap.bundle.min.js"></script>
+</body>
+</html>

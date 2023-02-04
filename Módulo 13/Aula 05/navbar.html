@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap NavBar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <a id="logo" href="https://getbootstrap.com/docs/4.0/components/navbar/" target="_blank">NAVBAR</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="#inicio">Navbar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Bootstrap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#promocoes">Templates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Connect</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+            <section id="inicio">
+                <h2 class="top">Basic Navbar</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <div id="max" class="card text-bg-dark">
+                            <div class="card-header">
+                                Basic Navbar
+                            </div>
+                            <img class="maximg" src="img/offcanvas-collapse-lg.svg" alt="">
+                            <div class="card-body">
+                                <p>With <strong><a href="https://getbootstrap.com/docs/4.0/components/navbar/" target="_blank">Bootstrap</a></strong>, a navigation bar can extend or collapse, depending on the screen size. A standard navigation bar is created with the .navbar class, followed by a responsive collapsing class: .navbar-expand-xl|lg|md|sm (stacks the navbar vertically on extra large, large, medium or small screens).</p>
+                                <a href="https://www.terra.com.br/noticias/tecnologia/o-que-e-bootstrap,73faf13aefdb3b8b492c071584534f2e6zgxmpxc.html" class="btn btn-primary">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <img src="img/lion-1118467_960_720 (2).jpg" alt="">
+                            <div class="card-img-overlay">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, molestiae iure maxime, unde fugiat corrupti tenetur cumque earum excepturi suscipit vero ipsum asperiores consequatur aut. Expedita hic nisi suscipit! Distinctio?</p>
+                                <a href="https://www.iebschool.com/pt-br/blog/analitica-web/usabilidade-e-ux/ferramentas-bootstrap-startups/" class="btn btn-success" target="_blank">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <article class="card text-bg-dark">
+                            <header class="card-header">
+                                Software Development
+                            </header>
+                            <img class="maximg" src="img/screenshot-2-540x405.webp" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title">Cards do Bootstrap</h4>
+                                <p class="card-text">Conheça os cards do Bootstrap e suas variações</p>
+                                <a href="https://getbootstrap.com.br/docs/4.1/getting-started/accessibility/" class="btn btn-primary" target="_blank">Read more</a>
+                            </div>
+                            <footer class="card-footer">
+                                <time>02/04/2023 - 00:22</time>
+                            </footer>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section id="produtos">
+                <h2 class="top">Bootstrap</h2>
+                <img class="maximg" src="img/bootstrap-icons.png" alt="">
+                <div class="card-body">
+                    <p>With <strong><a href="https://getbootstrap.com/docs/4.0/components/navbar/" target="_blank">Bootstrap</a></strong>, a navigation bar can extend or collapse, depending on the screen size. A standard navigation bar is created with the .navbar class, followed by a responsive collapsing class: .navbar-expand-xl|lg|md|sm (stacks the navbar vertically on extra large, large, medium or small screens).</p>
+                    <a href="https://www.terra.com.br/noticias/tecnologia/o-que-e-bootstrap,73faf13aefdb3b8b492c071584534f2e6zgxmpxc.html" class="btn btn-primary">Read more</a>
+                </div>
+            </section>
+            <section id="promocoes">
+                <h2 class="top">Templates</h2>
+                <img class="maximg" src="img/screenshot-2-540x405.webp" alt="">
+                <div class="card-body">
+                    <p>With <strong><a href="https://themes.getbootstrap.com/" target="_blank">Bootstrap</a></strong>, a navigation bar can extend or collapse, depending on the screen size. A standard navigation bar is created with the .navbar class, followed by a responsive collapsing class: .navbar-expand-xl|lg|md|sm (stacks the navbar vertically on extra large, large, medium or small screens).</p>
+                    <a href="https://www.terra.com.br/noticias/tecnologia/o-que-e-bootstrap,73faf13aefdb3b8b492c071584534f2e6zgxmpxc.html" target="_blank" class="btn btn-primary">Read more</a>
+                </div>
+            </section>
+            <section id="contato">
+                <h2 class="top">Connect</h2>
+                <div class="row">
+                    <div class="col">
+                        <h2>Entre em contato</h2>
+                        <form>
+                            <label class="form-label" for="nome">Name:</label>
+                            <input class="form-control" type="text" id="nome">
+                            <label for="email" class="form-label">Email:</label>
+                            <input id="email" type="email" class="form-control">
+                            <label for="mensagem" class="form-label">Message:</label>
+                            <textarea id="mensagem" class="form-control"></textarea>
+                            <div class="form-check form-switch">
+                                <label class="form-check-label" for="aceito-termos">Liked?</label>
+                                <input class="form-check-input" type="checkbox" id="aceito-termos">
+                            </div>
+                            <button class="btn btn-success">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

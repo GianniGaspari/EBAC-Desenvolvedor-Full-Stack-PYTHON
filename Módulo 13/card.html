@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Cards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib_/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #280617;
+            font-family: 'Major Mono Display', monospace;
+        }
+        .head {
+            margin: auto;
+            padding: 10px;
+            text-align: center;
+            font-family: 'Major Mono Display', monospace;
+            color: white;
+        }
+        .card-img-overlay {
+            background-color: rgba( 0, 0, 0, 0.7);
+        }
+        .maximg {
+            max-height: 400px;
+        }
+        .btn {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <h1>Bootstrap - CARDS</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <article class="card text-bg-danger">
+                    <header class="card-header">
+                        Software Development
+                    </header>
+                    <img class="maximg" src="img/DALL·E 2023-01-22 21.52.46 - cyberpunk style horse, black background-color.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Cards do Bootstrap</h4>
+                        <p class="card-text">Conheça os cards do Bootstrap e suas variações</p>
+                        <a href="https://getbootstrap.com.br/docs/4.1/getting-started/accessibility/" class="btn btn-primary" target="_blank">Leia mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado <time>03/02/2023 as 17:00</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-4">
+                <div class="card text-bg-dark">
+                    <img src="img/photo-1561344640-2453889cde5b.avif" alt="">
+                    <div class="card-img-overlay">
+                        <h4 class="card-title">Bootstrap</h4>
+                        <p class="card-text">Estrutura de desenvolvimento que foi projetada para facilitar o processo de criação de sites. Ao abrir um site no PC, no laptop, tablet ou abrir em qualquer smartphone, o tamanho da tela do site feito com o bootstrap se ajusta automaticamente e o conteúdo se apresenta melhor.</p>
+                        <a href="https://www.iebschool.com/pt-br/blog/analitica-web/usabilidade-e-ux/ferramentas-bootstrap-startups/" class="btn btn-success" target="_blank">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div id="max" class="card text-bg-dark">
+                    <div class="card-header">
+                        cabeçalho header
+                    </div>
+                    <img class="maximg" src="img/DALL·E 2023-01-22 21.44.29.png" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Título</h4>
+                        <h5 class="card-subtitle">Subtítulo</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor .</p>
+                        <a href="https://www.terra.com.br/noticias/tecnologia/o-que-e-bootstrap,73faf13aefdb3b8b492c071584534f2e6zgxmpxc.html" class="btn btn-warning">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib_/bootstrap.bundle.min.js"></script>
+</body>
+</html>

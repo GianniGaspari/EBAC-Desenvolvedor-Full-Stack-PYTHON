@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="701px" height="471px" viewBox="0 0 701 471" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>offcanvas-collapse-lg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0 L115,0 L115,144 C115,146.761424 112.761424,149 110,149 L5,149 C2.23857625,149 3.38176876e-16,146.761424 0,144 L0,0 L0,0 Z" id="path-1"></path>
+        <filter x="-10.0%" y="-6.4%" width="120.0%" height="115.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.529196093   0 0 0 0 0.58447441   0 0 0 0 0.719599185  0 0 0 0.0991313374 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="160" height="300.8" rx="20"></rect>
+        <filter x="-17.8%" y="-7.1%" width="130.6%" height="116.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="-4" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.366012893 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-13.4%" y="-4.8%" width="121.9%" height="111.6%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.20159528 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <rect id="path-6" x="0" y="0" width="140.8" height="273.6" rx="8"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="offcanvas-collapse-lg">
+            <g id="basic-hover-lg-copy">
+                <path d="M0,34 L700,34 L700,447 C700,449.761424 697.761424,452 695,452 L5,452 C2.23857625,452 3.38176876e-16,449.761424 0,447 L0,34 L0,34 Z" id="Rectangle-4" fill="#E3EBFF"></path>
+                <rect id="Rectangle" fill="#EEF3FF" x="64" y="160" width="572" height="292"></rect>
+                <path d="M5,0 L695,0 C697.761424,-5.07265313e-16 700,2.23857625 700,5 L700,34 L700,34 L0,34 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="Rectangle" fill="#737373"></path>
+                <g id="Group-5" transform="translate(17.000000, 12.000000)" fill="#C7C7C7">
+                    <path d="M4.98484848,0 C7.73790428,0 9.96969697,2.23857625 9.96969697,5 C9.96969697,7.76142375 7.73790428,10 4.98484848,10 C2.23179269,10 0,7.76142375 0,5 C0,2.23857625 2.23179269,0 4.98484848,0 Z M23.5,0 C26.2530558,0 28.4848485,2.23857625 28.4848485,5 C28.4848485,7.76142375 26.2530558,10 23.5,10 C20.7469442,10 18.5151515,7.76142375 18.5151515,5 C18.5151515,2.23857625 20.7469442,0 23.5,0 Z M42.0151515,0 C44.7682073,0 47,2.23857625 47,5 C47,7.76142375 44.7682073,10 42.0151515,10 C39.2620957,10 37.030303,7.76142375 37.030303,5 C37.030303,2.23857625 39.2620957,0 42.0151515,0 Z" id="Combined-Shape"></path>
+                </g>
+                <g id="Group-3" transform="translate(64.000000, 108.000000)">
+                    <rect id="Rectangle-3" fill="#428EF7" x="0" y="0" width="572" height="52"></rect>
+                    <g id="Group-9" transform="translate(30.000000, 18.000000)">
+                        <rect id="Rectangle-6-Copy-2" fill="#E0EDFF" x="82" y="0" width="46" height="16" rx="4"></rect>
+                        <rect id="Rectangle-6-Copy-4" fill="#9EC7FF" x="236" y="0" width="50" height="16" rx="4"></rect>
+                        <rect id="Rectangle-6-Copy" fill="#9EC7FF" x="0" y="0" width="50" height="16" rx="4"></rect>
+                        <rect id="Rectangle-6-Copy-3" fill="#9EC7FF" x="158" y="0" width="46" height="16" rx="4"></rect>
+                        <rect id="Rectangle-6-Copy-5" fill="#9EC7FF" x="318" y="0" width="50" height="16" rx="4"></rect>
+                    </g>
+                </g>
+                <g id="Group-6" transform="translate(164.000000, 160.000000)">
+                    <g id="Group-7">
+                        <g id="Group-2">
+                            <g id="Rectangle-7">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#6EABFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <path d="M76.2,121 C77.3045695,121 78.2,121.895431 78.2,123 L78.2,128 C78.2,129.104569 77.3045695,130 76.2,130 L15.8,130 C14.6954305,130 13.8,129.104569 13.8,128 L13.8,123 C13.8,121.895431 14.6954305,121 15.8,121 L76.2,121 Z M90,95 C91.1045695,95 92,95.8954305 92,97 L92,102 C92,103.104569 91.1045695,104 90,104 L15.8,104 C14.6954305,104 13.8,103.104569 13.8,102 L13.8,97 C13.8,95.8954305 14.6954305,95 15.8,95 L90,95 Z M98.28,71 C99.3845695,71 100.28,71.8954305 100.28,73 L100.28,78 C100.28,79.1045695 99.3845695,80 98.28,80 L15.8,80 C14.6954305,80 13.8,79.1045695 13.8,78 L13.8,73 C13.8,71.8954305 14.6954305,71 15.8,71 L98.28,71 Z M98.28,45 C99.3845695,45 100.28,45.8954305 100.28,47 L100.28,52 C100.28,53.1045695 99.3845695,54 98.28,54 L15.8,54 C14.6954305,54 13.8,53.1045695 13.8,52 L13.8,47 C13.8,45.8954305 14.6954305,45 15.8,45 L98.28,45 Z M98.28,19 C99.3845695,19 100.28,19.8954305 100.28,21 L100.28,26 C100.28,27.1045695 99.3845695,28 98.28,28 L15.8,28 C14.6954305,28 13.8,27.1045695 13.8,26 L13.8,21 C13.8,19.8954305 14.6954305,19 15.8,19 L98.28,19 Z" id="Combined-Shape" fill="#D5E7FF" opacity="0.553455171"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-12" transform="translate(530.000000, 170.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#373737" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-3"></use>
+                </g>
+                <rect id="Rectangle" fill="#585858" x="67.2" y="289.6" width="41.6" height="4.8" rx="2.4"></rect>
+                <g id="Rectangle" transform="translate(9.600000, 9.600000)">
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <use id="Mask" fill="#A8B5C7" xlink:href="#path-6"></use>
+                    <g id="Group-13" mask="url(#mask-7)">
+                        <rect id="Rectangle" fill="#2D7BE8" x="0" y="0" width="142" height="273.6"></rect>
+                        <path d="M127.254694,11.5453057 C127.715102,12.0057133 127.715102,12.7521815 127.254694,13.212589 L123.664,16.802 L127.202181,20.3371619 C127.656577,20.7392061 127.727318,21.4149546 127.385469,21.9001894 L127.30589,22.0010831 C126.876313,22.4892797 126.1334,22.5358399 125.646547,22.1050782 L125.646547,22.1050782 L122.002,18.464 L118.412589,22.0546943 C117.952181,22.5151019 117.205713,22.5151019 116.745306,22.0546943 C116.284898,21.5942867 116.284898,20.8478185 116.745306,20.387411 L120.335,16.797 L116.797819,13.2628381 C116.343423,12.8607939 116.272682,12.1850454 116.614531,11.6998106 L116.69411,11.5989169 C117.123687,11.1107203 117.8666,11.0641601 118.353453,11.4949218 L118.353453,11.4949218 L121.997,15.135 L125.587411,11.5453057 C126.047819,11.0848981 126.794287,11.0848981 127.254694,11.5453057 Z" id="Combined-Shape" fill="#9EC7FF" fill-rule="nonzero" opacity="0.737234933"></path>
+                        <rect id="Rectangle-6-Copy-6" fill="#9EC7FF" x="12.8" y="38.4" width="115" height="9.6" rx="1.6"></rect>
+                        <rect id="Rectangle-6-Copy-8" fill="#9EC7FF" x="12.8" y="86.4" width="115" height="9.6" rx="1.6"></rect>
+                        <rect id="Rectangle-6-Copy-10" fill="#9EC7FF" x="12.8" y="134.4" width="115" height="9.6" rx="1.6"></rect>
+                        <rect id="Rectangle-6-Copy-7" fill="#9EC7FF" x="12.8" y="62.4" width="115" height="9.6" rx="1.6"></rect>
+                        <rect id="Rectangle-6-Copy-9" fill="#9EC7FF" x="12.8" y="110.4" width="115" height="9.6" rx="1.6"></rect>
+                        <rect id="Rectangle-6-Copy-11" fill="#9EC7FF" x="12.8" y="158.4" width="115" height="9.6" rx="1.6"></rect>
+                        <rect id="Rectangle-6-Copy-26" fill="#6AA4F4" x="26.8" y="182.4" width="101" height="9.6" rx="1.6"></rect>
+                        <rect id="Rectangle-6-Copy-14" fill="#9EC7FF" opacity="0.546340216" x="26.8" y="204.8" width="101" height="9.6" rx="1.6"></rect>
+                        <rect id="Rectangle-6-Copy-15" fill="#9EC7FF" opacity="0.546340216" x="26.8" y="227.2" width="101" height="9.6" rx="1.6"></rect>
+                    </g>
+                    <g id="Group-8" mask="url(#mask-7)">
+                        <g transform="translate(12.800000, 38.400000)"></g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,58 @@
+body {
+    background-color: #280617;
+    color: white;
+    font-family: 'Major Mono Display', monospace;
+}
+
+.nav-link {
+    color: #ccc;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-link:hover {
+    color: #ce9cb5;
+}
+
+.navbar-toggler {
+    background-color: #3f0a24;
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+section {
+    height: 100vh;
+    padding-top: 45px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #200513;
+}
+
+.top {
+    text-align: center;
+    padding-top: 10px;
+}
+
+a#logo {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+a {
+    color: #c49dff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ab73ff;
+}
+.card-img-overlay {
+    background-color: rgba( 0, 0, 0, 0.9);
+}
