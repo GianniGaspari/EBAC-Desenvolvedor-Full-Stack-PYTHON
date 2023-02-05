@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Abas - Tab</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <a id="logo" href="https://getbootstrap.com/docs/4.0/components/navbar/" target="_blank">NAVBAR</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="#inicio">Navbar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Bootstrap</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#promocoes">Templates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Connect</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="inicio">
+            <h2 class="top">Basic Navbar</h2>
+        </section>
+        <section id="produtos">
+            <h2 class="top">Bootstrap</h2>
+            <div class="container">
+                <nav class="nav nav-tabs"> <!--nav-pills para mudar de aba para botão-->
+                    <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Eletrônicos</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Moda masculina</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Moda feminina</button>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="aba1">
+                        Conteúdo Eletrônicos
+                    </div><div class="tab-pane" id="aba2">
+                        Conteúdo Moda masculina
+                    </div><div class="tab-pane" id="aba3">
+                        Conteúdo Moda feminina
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promocoes">
+            <h2 class="top">Templates</h2>
+        </section>
+        <section id="contato">
+            <h2 class="top">Connect</h2>
+        </section>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

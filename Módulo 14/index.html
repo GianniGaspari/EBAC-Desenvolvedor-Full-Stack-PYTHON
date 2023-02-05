@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <a id="logo" href="#">EYES of the WORLD</a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Eye</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Buy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#promocoes">Bye</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button id="btn-checar-emails" class="btn btn-danger" type="button">🔔</button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="img/owl-eyes.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item ">
+                    <img class="d-block w-100" src="img/panther-eyes-1.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="img/bees-eyes.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="img/cat-eyes.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="img/eagle-eyes.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="img/owl-eyes-2.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="img/lion-eyes-2.jpg" alt="">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="img/woman-eyes-1.jpg" alt="">
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="6"></button>
+                <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="7"></button>
+            </div>
+        </div>
+    </div>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="inicio">
+            <h2 class="top">EYE</h2>
+            <div class="container">
+                <p>The light reflected by objects crosses the cornea, pupil, lens and reaches the retina, where specialized cells encode the image and the optic nerve takes the stimulus to the brain.</p>
+                <div class="row">
+                    <div class="col-4">
+                        <article class="card text-bg-dark">
+                            <img class="imgs" src="img/eye-anatomy.jpg" alt="">
+                            <div class="card-body">
+                                <a href="https://www.allaboutvision.com/resources/anatomy.htm" class="btn btn-primary" target="_blank">Read more</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-4">
+                        <div class="card text-bg-dark">
+                            <img src="img/photo-1561344640-2453889cde5b.avif" alt="">
+                            <div class="card text-bg-dark"> 
+                                <p class="card-text">The eye is made up of three coats, which enclose the optically clear aqueous humour, lens, and vitreous body. The outermost coat consists of the cornea and the sclera; the middle coat contains the main blood supply to the eye and consists, from the back forward, of the choroid, the ciliary body, and the iris.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div id="max" class="card text-bg-dark">
+                            <div class="card-body">
+                                <img class="maximg" src="img/owl-eyes-2.jpg" alt="">
+                                <h4 class="card-title">What do you see?</h4>
+                                <h5 class="card-subtitle">Is not</h5>
+                                <p class="card-text">what you get 🤯</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <section id="produtos">
+            <h2 class="top">BUY</h2>
+            <div class="container">
+                <nav class="nav nav-tabs">
+                    <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Sun Glasses</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Eyeglasses</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Accessories</button>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="aba1">
+                        <div class="row">
+                            <div class="col-4">
+                                <article class="card text-bg-dark">
+                                    <header class="card-header">
+                                        <h1>Photochromic Sunglasses Eyewear</h1>
+                                        <h4>$39,99</h4>
+                                    </header>
+                                    <img class="imgs" src="img/sunglasses1.jpg" alt="">
+                                    <div class="card-body">
+                                        <a href="https://www.google.com/search?rlz=1C1CHBD_pt-BRBR941BR941&tbm=shop&sxsrf=AJOqlzWa4WMqq83AO-P_OJOQTVVu65g2nA:1675561959551&q=sunglasses&tbs=mr:1,price:1,ppr_min:100&sa=X&ved=0ahUKEwixl5fbov38AhXDrpUCHd6YDLwQvSsIvwooAw&biw=1440&bih=789&dpr=1#spd=8190383206732350701" class="btn btn-success" target="_blank">Buy</a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-4">
+                                <article class="card text-bg-dark">
+                                    <header class="card-header">
+                                        <h1>Photochromic Sunglasses Eyewear</h1>
+                                        <h4>$39,99</h4>
+                                    </header>
+                                    <img class="imgs" src="img/sunglasses1.jpg" alt="">
+                                    <div class="card-body">
+                                        <a href="https://www.google.com/search?rlz=1C1CHBD_pt-BRBR941BR941&tbm=shop&sxsrf=AJOqlzWa4WMqq83AO-P_OJOQTVVu65g2nA:1675561959551&q=sunglasses&tbs=mr:1,price:1,ppr_min:100&sa=X&ved=0ahUKEwixl5fbov38AhXDrpUCHd6YDLwQvSsIvwooAw&biw=1440&bih=789&dpr=1#spd=8190383206732350701" class="btn btn-success" target="_blank">Buy</a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-4">
+                                <article class="card text-bg-dark">
+                                    <header class="card-header">
+                                        <h1>Photochromic Sunglasses Eyewear</h1>
+                                        <h4>$39,99</h4>
+                                    </header>
+                                    <img class="imgs" src="img/sunglasses1.jpg" alt="">
+                                    <div class="card-body">
+                                        <a href="https://www.google.com/search?rlz=1C1CHBD_pt-BRBR941BR941&tbm=shop&sxsrf=AJOqlzWa4WMqq83AO-P_OJOQTVVu65g2nA:1675561959551&q=sunglasses&tbs=mr:1,price:1,ppr_min:100&sa=X&ved=0ahUKEwixl5fbov38AhXDrpUCHd6YDLwQvSsIvwooAw&biw=1440&bih=789&dpr=1#spd=8190383206732350701" class="btn btn-success" target="_blank">Buy</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="aba2">
+                        <div class="row">
+                            <div class="col-4">
+                                <article class="card text-bg-dark">
+                                    <header class="card-header">
+                                        <h1>Fine</h1>
+                                        <h3>Tortoise Giorno</h3>
+                                        <h4>$69,99</h4>
+                                    </header>
+                                    <img class="imgs" src="img/eyeglasses1.jpg" alt="">
+                                    <div class="card-body">
+                                        <a href="https://zerezes.com.br/products/fine-oculos-de-grau?variant=39642291863717" class="btn btn-success" target="_blank">Buy</a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-4">
+                                <article class="card text-bg-dark">
+                                    <header class="card-header">
+                                        <h1>Fine</h1>
+                                        <h3>Tortoise Giorno</h3>
+                                        <h4>$69,99</h4>
+                                    </header>
+                                    <img class="imgs" src="img/eyeglasses1.jpg" alt="">
+                                    <div class="card-body">
+                                        <a href="https://zerezes.com.br/products/fine-oculos-de-grau?variant=39642291863717" class="btn btn-success" target="_blank">Buy</a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-4">
+                                <article class="card text-bg-dark">
+                                    <header class="card-header">
+                                        <h1>Fine</h1>
+                                        <h3>Tortoise Giorno</h3>
+                                        <h4>$69,99</h4>
+                                    </header>
+                                    <img class="imgs" src="img/eyeglasses1.jpg" alt="">
+                                    <div class="card-body">
+                                        <a href="https://zerezes.com.br/products/fine-oculos-de-grau?variant=39642291863717" class="btn btn-success" target="_blank">Buy</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="aba3">
+                        <div class="row">
+                            <div class="col-4">
+                                <article class="card text-bg-dark">
+                                    <header class="card-header">
+                                        <h1>Sunglasses Holder</h1>
+                                        <h4>$19,99</h4>
+                                    </header>
+                                    <img class="imgs" src="img/sunglasses-holder.jpg" alt="">
+                                    <div class="card-body">
+                                        <a href="https://www.bcraftsman.com.br/acessorios/porta-oculos?parceiro=5088&variant_id=31&gclid=Cj0KCQiAofieBhDXARIsAHTTldpmQ9IHdqK0MzX9Ba44G45ZZQwwa5mS_EHYddczUiPtGxsQNoR1ws4aAmeWEALw_wcB" class="btn btn-success" target="_blank">Buy</a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-4">
+                                <article class="card text-bg-dark">
+                                    <header class="card-header">
+                                        <h1>Sunglasses Holder</h1>
+                                        <h4>$19,99</h4>
+                                    </header>
+                                    <img class="imgs" src="img/sunglasses-holder.jpg" alt="">
+                                    <div class="card-body">
+                                        <a href="https://www.bcraftsman.com.br/acessorios/porta-oculos?parceiro=5088&variant_id=31&gclid=Cj0KCQiAofieBhDXARIsAHTTldpmQ9IHdqK0MzX9Ba44G45ZZQwwa5mS_EHYddczUiPtGxsQNoR1ws4aAmeWEALw_wcB" class="btn btn-success" target="_blank">Buy</a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-4">
+                                <article class="card text-bg-dark">
+                                    <header class="card-header">
+                                        <h1>Sunglasses Holder</h1>
+                                        <h4>$19,99</h4>
+                                    </header>
+                                    <img class="imgs" src="img/sunglasses-holder.jpg" alt="">
+                                    <div class="card-body">
+                                        <a href="https://www.bcraftsman.com.br/acessorios/porta-oculos?parceiro=5088&variant_id=31&gclid=Cj0KCQiAofieBhDXARIsAHTTldpmQ9IHdqK0MzX9Ba44G45ZZQwwa5mS_EHYddczUiPtGxsQNoR1ws4aAmeWEALw_wcB" class="btn btn-success" target="_blank">Buy</a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="promocoes">
+            <div class="container">
+                <h2 class="top">BYE</h2>
+                <p>The light reflected by objects crosses the cornea, pupil, lens and reaches the retina, where specialized cells encode the image and the optic nerve takes the stimulus to the brain.</p>
+                <p>The pupil works like the diaphragm of a camera, it controls the entry of light according to the environment. In bright places, the iris contracts, closing the pupil, thus reducing light entry and focusing on the center of the retina. In dark environments, the iris dilates and allows more light to enter through the pupil, stimulating more the periphery of the retina, where the cells responsible for night vision are found. The variation of the pupil opening, from 2 to 8 mm, is equivalent to magnifying up to 30 times the entry of light into the eye.</p>
+                <p>When light arrives at the retina, it stimulates specialized cells, the photoreceptors, to convert the light impulse into an electrical stimulus. There are 2 types; the cones, specialized in color vision and details, located especially in the central region and the rods, specialized in night vision, which are located in the periphery of the retina. The electrical stimulus decoded by retinal cells is conducted to the brain, which interprets the information.</p>
+                <p>* Diseases related to overexposure to UV rays, such as macular degeneration, cataracts, and pterygium, can be prevented by wearing glasses with UV protection, maintaining eye health.</p>
+                <p>PROTECT YOUR EYES</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div class="toast text-bg-dark" id="mensagens-alerta">
+            <header class="toast-header">
+                <strong>Cyberpunk</strong>
+            </header>
+            <div class="toast-body">
+                this is what a cyberpunk bunnie eye looks like
+                <img src="img/DALL·E 2023-01-22 21.36.23 -  cyberpunk style warrior rabbit 3_2.png" alt="">
+                <div class="mt-2 pt-2 border-top">
+                    <button data-bs-dismiss="toast" class="btn btn-danger" type="button">
+                        close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
