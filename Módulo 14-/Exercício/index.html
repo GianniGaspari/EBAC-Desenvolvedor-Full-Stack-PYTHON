@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gianni Turismo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">
+                <i class="bi bi-airplane"></i>
+                Fly Travel
+            </h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="#menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-o-restaurante" class="nav-link">
+                            <i class="bi bi-house-door-fill"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#pacotes" class="nav-link">
+                            <i class="bi bi-box2-heart"></i>
+                            Pacotes
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#roteiros" class="nav-link">
+                            <i class="bi bi-airplane-fill"></i>
+                            Roteiros
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section >
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active"data-bs-interval="3000">
+                        <img src="img/carousel/6.png" class="w-100" alt="2 taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/carousel/7.png" class="w-100" alt="Foto da área interna do restaurante">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/carousel/11.png" class="w-100" alt="Mesa de comida">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/carousel/8.png" class="w-100" alt="Foto da área interna do restaurante">
+                    </div>
+                    <div class="carousel-item"data-bs-interval="3000">
+                        <img src="img/carousel/9.png" class="w-100" alt="2 taças de vinho">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/carousel/10.png" class="w-100" alt="Mesa de comida">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="5"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5" id="sobre-o-restaurante">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="img/logo/Travel Agency.png" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre<span class="text-colored"> a agência</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi qui doloribus libero culpa quas, ea sint minus quae commodi voluptatibus harum, similique reprehenderit magni cumque ad quidem ipsum? Culpa, sed!</p>
+                            <h3 class="section-title">Sobre<span class="text-colored"> a equipe</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ab ipsam et. Tempore, quas sit odit id accusantium blanditiis deleniti iure architecto rem a, aut totam dolorem. Assumenda, quisquam labore!</p>
+                            <ul>
+                                <img class="d-block w-100 pr-4 rounded" src="img/logo/staff.jpg" alt="">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div id="pacotes" class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Nossos <span class="text-colored">Pacotes</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="img/places/amazônia/13.png " alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-calendar-heart-fill">Conheça lugares exclusivos</i>
+                        </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae possimus repellendus voluptates iure, nesciunt excepturi assumenda et. Accusantium impedit fugit quia deserunt optio. Distinctio itaque veniam quae vero, consectetur maxime.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/places/aurora-boreal/3.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-arrow-through-heart-fill">Roteiros inesquecíveis</i>
+                        </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae possimus repellendus voluptates iure, nesciunt excepturi assumenda et. Accusantium impedit fugit quia deserunt optio. Distinctio itaque veniam quae vero, consectetur maxime.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/places/norway/7.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill">Hospedagem inclusa</i>
+                        </h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae possimus repellendus voluptates iure, nesciunt excepturi assumenda et. Accusantium impedit fugit quia deserunt optio. Distinctio itaque veniam quae vero, consectetur maxime.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="roteiros" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossos <span class="text-colored">Roteiros</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-acool" class="fw-bold fs-4 text-start nav-link text-colored active">Peru</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-acoolicas" class="fw-bold fs-4 text-start nav-link text-colored">Islândia</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="fw-bold fs-4 text-start nav-link text-colored">Noruega</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="fw-bold fs-4 text-start nav-link text-colored">Amazônia</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="bebidas-sem-acool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/peru/1.png" alt="Coca-Cola">
+                                        <h5 class="text-colored fw-bold mt-2">Inca Trail</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/peru/2.png" alt="Suco de laranja">
+                                        <h5 class="text-colored fw-bold mt-2">Titicaca Lake</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/peru/3.png" alt="Coca-Cola">
+                                        <h5 class="text-colored fw-bold mt-2">Machu-Picchu</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/peru/4.png" alt="Suco de laranja">
+                                        <h5 class="text-colored fw-bold mt-2">Salkantay</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/peru/5.png" alt="Coca-Cola">
+                                        <h5 class="text-colored fw-bold mt-2">Huayna Picchu</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/peru/cocalmayo-cusco-peru-2-1-1024x997.jpg" alt="Coca-Cola">
+                                        <h5 class="text-colored fw-bold mt-2">Aguas Calientes</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bebidas-acoolicas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/aurora-boreal/2.png" alt="aurora-boreal">
+                                        <h5 class="text-colored fw-bold mt-2">Aurora-Boreal</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/aurora-boreal/6.png" alt="aurora-boreal">
+                                        <h5 class="text-colored fw-bold mt-2">Acampamento</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/aurora-boreal/3.png" alt="aurora-boreal">
+                                        <h5 class="text-colored fw-bold mt-2">Cachoeiras</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/aurora-boreal/4.png" alt="aurora-boreal">
+                                        <h5 class="text-colored fw-bold mt-2">Aurora-Boreal</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/aurora-boreal/5.png" alt="aurora-boreal">
+                                        <h5 class="text-colored fw-bold mt-2">Aurora-Boreal</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/aurora-boreal/1.png" alt="Vinho">
+                                        <h5 class="text-colored fw-bold mt-2">Cachoeira</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/norway/1.png" alt="Entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Montanha</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/norway/2.png" alt="Entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Barcos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/norway/3.png" alt="Entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Casas típicas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/norway/4.png" alt="Entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Hospedagem</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/norway/5.png" alt="Entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Estrada</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/norway/6.png" alt="Entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Porto</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/norway/7.png" alt="Entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Beira-mar</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/norway/8.png" alt="Entrada">
+                                        <h5 class="text-colored fw-bold mt-2">Hospedagem</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100 prato" src="img/places/amazônia/1.png" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Cachoeira</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/amazônia/10.png" alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">Fauna exuberante</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/amazônia/11.png" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Passeios de barco</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/amazônia/12.png" alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">Vegetação única</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/amazônia/13.png" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Vilarejos intactos</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/amazônia/2.png" alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">Sinta-se parte</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/amazônia/3.png" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Rio Negro</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/amazônia/4.png" alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">Rio Negro</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/amazônia/5.png" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Rio Negro</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/amazônia/6.png" alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">Vitória-Régia</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/amazônia/7.png" alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">Interior do rio</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/places/amazônia/8.png" alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">Mico leão</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/images/cardapio/sobremesas/bolo.jpg" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/images/cardapio/sobremesas/bolo.jpg" alt="Bolo">
+                                        <h5 class="text-colored fw-bold mt-2">Bolo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block rounded w-100" src="img/images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
+                                        <h5 class="text-colored fw-bold mt-2">Cupcake</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome <i class="bi bi-person"></i></label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Email <i class="bi bi-envelope"></i></label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Telefone <i class="bi bi-telephone"></i></label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Mensagem <i class="bi bi-chat-left-dots"></i></label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">
+                                <i class="bi bi-cursor-fill"></i>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored mt-4">
+                                <i class="bi bi-globe2"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-buildings"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua dos bobos, nº 0. Bairro Ilha da Magia - Florianópolis
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
