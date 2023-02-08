@@ -1,0 +1,33 @@
+$corPrincipal: #eee;
+$corDoTexto: #111;
+
+body {
+    background-color: $corPrincipal;
+}
+
+header {
+    background-color: $corPrincipal;
+
+    h1 {
+        color: purple;
+    }
+}
+
+button {
+    padding: 16px;
+    background-color: $corDoTexto;
+    color: $corPrincipal;
+
+    &:hover {
+        background-color: red;
+    }
+
+}
+
+section {
+    background-color: yellow;
+
+    &:hover {
+        background-color: green;
+    }
+}
