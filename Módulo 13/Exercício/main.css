@@ -79,7 +79,7 @@ p {
     
     .col {
         margin: auto;
-        max-width: 500px;
+        max-width: 100%;
     }
 
     img {
@@ -104,10 +104,4 @@ p {
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
 
-}
-
-@media screen and (min-width: 1024px) {
-
-}
