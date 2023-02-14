@@ -1,9 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Roboto, sans-serif;
-}
+@use 'config/reset';
+@use 'config/variaveis';
 
 body {
     background-color: #f5f6fa;
@@ -20,7 +16,7 @@ li {
 }
 
 header {
-    background-color: #182C61;
+    background-color: variaveis.$corPrincipal;
     position: sticky;
     top: 0;
     left: 0;
