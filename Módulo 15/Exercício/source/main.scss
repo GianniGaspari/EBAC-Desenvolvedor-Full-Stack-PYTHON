@@ -2,7 +2,7 @@
 @use 'config/variaveis';
 
 body {
-    background-color: #f5f6fa;
+    background-color: variaveis.$corDeFundo;
 }
 
 li {
@@ -63,7 +63,7 @@ section {
 
 .product-button {
     display: block;
-    background-color: #44bd32;
+    background-color: variaveis.$corSecundaria;
     color: #fff;
     text-align: center;
     padding: 8px 0;
@@ -76,7 +76,7 @@ section {
     background-color: #4cd137;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: variaveis.$tablet) {
     .container {
         max-width: 80%;
     }
@@ -87,7 +87,7 @@ section {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: variaveis.$mobile) {
     .products {
         display: block;
     }
