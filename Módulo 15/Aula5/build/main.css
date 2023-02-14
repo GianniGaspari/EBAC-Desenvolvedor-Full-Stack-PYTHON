@@ -1,17 +1,77 @@
-/* Error: expected ";".
- *   ,
- * 2 | @use 'config/variaveis'
- *   |                        ^
- *   '
- *   source\main.scss 2:24  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: expected \";\".\a   \2577 \a 2 \2502  @use 'config/variaveis'\d\a   \2502                         ^\a   \2575 \a   source\\main.scss 2:24  root stylesheet";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
+
+body {
+  background-color: #eee;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 16px 0;
+  background-color: #2e86de;
+  color: white;
+  text-align: center;
+}
+
+.form-container {
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 700px;
+}
+.form-container h2 {
+  font-size: 3em;
+  text-align: center;
+}
+.form-container form {
+  width: 100%;
+  max-width: 480px;
+  margin-top: 40px;
+}
+.form-container form label {
+  font-weight: bold;
+  cursor: pointer;
+}
+.form-container form input {
+  padding: 8px;
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid #2e86de;
+}
+.form-container form button {
+  padding: 8px;
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  background-color: #54a0ff;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+.form-container form button:hover {
+  background-color: #68abff;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
