@@ -1,1 +1,1 @@
-function ಠ_ಠ123(o,r){return o+r}module.ಠ_ಠ124=ಠ_ಠ123;
+function ಠ_ಠ433(o,r){return o+r}module.ಠ_ಠ434=ಠ_ಠ433;
