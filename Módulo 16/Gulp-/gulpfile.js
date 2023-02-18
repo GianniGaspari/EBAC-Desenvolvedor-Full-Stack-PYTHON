@@ -1,4 +1,13 @@
 const gulp = require('gulp');
+const sass = require('gulp-sass')(require('sass'));
+
+function compilaSass() {
+    return gulp.src('./source/styles/main.scss')
+        .pipe(sass({
+            outputStyle: 'compressed'
+        }))
+        .pipe(gulp.dest('./build/styles'));
+}
 
 function funcaoPadrao(callBack) {
     setTimeout(function() {
@@ -22,6 +31,7 @@ function dizTchau() {
 // exports.default = gulp.series(funcaoPadrao, dizOi);
 exports.default = gulp.parallel(funcaoPadrao, dizOi);
 exports.dizOi = dizOi;
+exports.sass = compilaSass;
 
 /*
 Tarefas pulicas, são aquelas que exportamos.
