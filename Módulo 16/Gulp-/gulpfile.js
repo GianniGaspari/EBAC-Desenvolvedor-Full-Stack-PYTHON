@@ -1,6 +1,22 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const sourcemaps = require('gulp-sourcemaps');
+const uglify = require('gulp-uglify');
+const obfuscate = require('gulp-obfuscate');
+const imagemin = require('gulp-imagemin')
+
+function comprimeImagens() {
+    return gulp.src('./source/images/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('./build/images'))
+}
+
+function comprimeJavaScript() {
+    return gulp.src('./source/scripts/*.js')
+        .pipe(uglify())
+        .pipe(obfuscate())
+        .pipe(gulp.dest('./build/scripts'))
+}
 
 function compilaSass() {
     return gulp.src('./source/styles/main.scss')
@@ -38,8 +54,10 @@ exports.sass = compilaSass;
 exports.watch = function() {
     gulp.watch('./source/styles/*.scss', { ignoreInitial: false}, gulp.series(compilaSass));
 }
+exports.javascript = comprimeJavaScript;
+exports.images = comprimeImagens;
 
 /*
-Tarefas pulicas, são aquelas que exportamos.
+Tarefas publicas, são aquelas que exportamos.
 Tarefas privadas são aquelas que não exportamos, mas podemos utilizar dentro de outras tarefas
 */
