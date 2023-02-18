@@ -11,10 +11,17 @@ body {
   background-color: #1B1464;
   color: #ffffff;
 }
+li {
+  list-style: none;
+}
 .container {
   max-width: 960px;
   width: 100%;
   margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 @media (max-width:767px) {
   .container {
@@ -27,7 +34,7 @@ body {
   }
 }
 header {
-  padding: 24px;
+  padding-bottom: 24px;
 }
 header .profile-avatar {
   display: block;
@@ -57,12 +64,28 @@ header .profile-avatar {
   width: 100%;
   margin: 0 auto;
 }
-.social-links li {
-  list-style: none;
-}
 .social-links li img {
   transition: all ease 0.3s;
 }
 .social-links li img:hover {
   transform: scale(1.3);
+}
+.project-list-item a {
+  text-decoration: none;
+  background-color: #12CBC4;
+  display: block;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 2px solid #12CBC4;
+  transition: all ease 0.3s;
+}
+.project-list-item a:hover {
+  color: #12CBC4;
+  background-color: transparent;
+  transform: scale(1.01);
 }
