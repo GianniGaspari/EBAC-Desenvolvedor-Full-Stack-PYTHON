@@ -1,7 +1,85 @@
-@import "variaveis.less";
+@import "mapas.less";
+
+@breakpointMobile: ~"(max-width:767px)";
+@breakpontTablet: ~"(min-width:768px) and (max-width:1023px)";
+
+.marginBottom8 {
+    margin-bottom: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
 
 body {
-    background-color: @corDeFundo;
-    color: #ffffff;
+    background-color: #colors[backgroundColor];
+    color: #colors[textColor];
 
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    
+    
+    @media @breakpointMobile {
+        max-width: 80%;
+    } 
+    
+    @media @breakpontTablet {
+        max-width: 85%;
+    }
+}
+
+header {
+    padding: 24px;
+
+    .profile-avatar {
+        display: block;
+        margin: 0 auto 24px;
+        border-radius: 50%;
+        max-width: 150px;
+    }
+}
+
+.profile-bio {
+    text-align: center;
+
+    &-name {
+        font-size: 18px;
+       .marginBottom8();
+    }
+
+    &-subtitle {
+        font-size: 16px;
+       .marginBottom8();
+    }
+
+    &-description {
+        font-size: 16px;
+        opacity: .7;
+    }
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    width: 100%;
+    margin: 0 auto;
+
+    li {
+        list-style: none;
+
+        img {
+            transition: all ease .3s;
+            &:hover {
+                transform: scale(1.3);
+            }
+        }
+    }
 }
