@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidade CSS</title>
+    <style>
+        /* 0 0 1 */
+        button {
+            background-color: rgb(255, 121, 121); /*!important*/
+        }
+
+        /* 0 1 0 */
+        .btn-sucesso {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Níveis de especificidades</h1>
+    <p>CSS Inline < IDs e Classes < Tags</p>
+    <!-- 1 0 0 -->
+    <button style="background-color: blue;" class="btn-sucesso">Enviar mensagem</button>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.title {
+    font-size: 48px;
+}
+
+.mensagem {
+    padding: 8px;
+    border: 1px solid #333;
+    border-radius: 8px;
+
+}
+
+.mensagem-title {
+    font-size: 18px;
+}
+
+.mensagem-conteudo {
+    font-size: 14px;
+}
+
+.mensagem-is-error {
+    border-color: red;
+    background-color: rgba(255, 0, 0, 0.192);
+    color: red;
+}
+
+.acordeon {
+    border: 1px solid black;
+}
+
+.acordeon-header {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.acordeon-content {
+    padding: 8px;
+    border-top: 1px solid #eee;
+    display: none;
+}
+
+.acordeon.is-open .acordeon-content {
+    display: block;
+}
