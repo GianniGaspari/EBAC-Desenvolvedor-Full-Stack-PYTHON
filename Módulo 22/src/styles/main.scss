@@ -1,4 +1,6 @@
 @use 'hero';
+@use 'components/infos_bar';
+@use 'components/buttons';
 
 
 * {
@@ -7,6 +9,7 @@
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     color: white;
+    list-style: none;
 }
 
 .container {

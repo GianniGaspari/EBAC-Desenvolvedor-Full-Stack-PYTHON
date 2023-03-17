@@ -19,7 +19,6 @@
 }
 
 .hero__text {
-  color: #fff;
   text-align: center;
   margin-top: 64px;
   margin-bottom: 64px;
@@ -50,11 +49,80 @@
   }
 }
 
+.infos-bar {
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 16px 24px;
+  display: flex;
+}
+
+.infos-bar__infos {
+  gap: 40px;
+  display: flex;
+}
+
+.infos-bar__infos__item {
+  color: #000;
+  font-size: 14px;
+}
+
+.infos-bar__infos__item b {
+  color: #000;
+  font-size: 18px;
+  display: block;
+}
+
+@media (max-width: 640px) {
+  .infos-bar, .infos-bar__infos {
+    display: block;
+  }
+
+  .infos-bar__infos__item {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .infos-bar__infos {
+    gap: 16px;
+  }
+}
+
+.button {
+  text-align: center;
+  white-space: nowrap;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button--primary {
+  color: #fff;
+  background-color: #4f2ac3;
+}
+
+@media (max-width: 640px) {
+  .button {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .button {
+    align-items: center;
+    display: flex;
+  }
+}
+
 * {
   box-sizing: border-box;
+  color: #fff;
   margin: 0;
   padding: 0;
   font-family: Roboto, sans-serif;
+  list-style: none;
 }
 
 .container {
