@@ -1,6 +1,11 @@
+@use 'variables';
+
 .event {
     padding: 80px 0;
-    background-image: linear-gradient(linear-gradient(#1B6CA7, #442B));
+
+    &--frontend {
+        background-image: linear-gradient(linear-gradient(variables.$blue1, variables.$blue2));
+    }
 
     .container {
         display: flex;
