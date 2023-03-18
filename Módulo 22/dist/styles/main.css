@@ -116,6 +116,45 @@
   }
 }
 
+.event {
+  background-image: linear-gradient(linear-gradient(#1b6ca7, #442b));
+  padding: 80px 0;
+}
+
+.event .container {
+  display: flex;
+}
+
+.event__image {
+  max-width: 360px;
+}
+
+.event__detail__title {
+  margin-bottom: 16px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.event__detail__description {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+@media (max-width: 640px) {
+  .event .container {
+    display: block;
+  }
+
+  .event__image {
+    width: 100%;
+  }
+
+  .event__details {
+    margin-bottom: 16px;
+    margin-right: 0;
+  }
+}
+
 * {
   box-sizing: border-box;
   color: #fff;
