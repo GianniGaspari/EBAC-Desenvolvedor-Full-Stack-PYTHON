@@ -7,6 +7,18 @@
         background-image: linear-gradient(linear-gradient(variables.$blue1, variables.$blue2));
     }
 
+    &--ui-ux {
+        background-image: linear-gradient(linear-gradient(variables.$blue2, variables.$pink));
+    }
+
+    &--data-science {
+        background-image: linear-gradient(linear-gradient(variables.$pink, variables.$yellow));
+    }
+
+    &--backend {
+        background-image: linear-gradient(linear-gradient(variables.$yellow, variables.$pink));
+    }
+
     .container {
         display: flex;
     }
@@ -15,7 +27,7 @@
         max-width: 360px;
     }
 
-    &__detail {
+    &__details {
         &__title {
             font-size: 18px;
             font-weight: bold;

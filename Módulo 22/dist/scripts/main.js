@@ -557,6 +557,8 @@ function hmrAccept(bundle, id) {
 }
 
 },{}],"3cYfC":[function(require,module,exports) {
+AOS.init();
+const dataDoEvento = new Date("Dec 12, 2023, 19:00:00");
 
 },{}]},["5anPP","3cYfC"], "3cYfC", "parcelRequire4566")
 

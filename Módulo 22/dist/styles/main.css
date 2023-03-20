@@ -128,6 +128,18 @@
   background-image: linear-gradient(linear-gradient(#1b6ca7, #442bdb));
 }
 
+.event--ui-ux {
+  background-image: linear-gradient(linear-gradient(#442bdb, #89223b));
+}
+
+.event--data-science {
+  background-image: linear-gradient(linear-gradient(#89223b, #9c791d));
+}
+
+.event--backend {
+  background-image: linear-gradient(linear-gradient(#9c791d, #89223b));
+}
+
 .event .container {
   display: flex;
 }
@@ -136,13 +148,13 @@
   max-width: 360px;
 }
 
-.event__detail__title {
+.event__details__title {
   margin-bottom: 16px;
   font-size: 18px;
   font-weight: bold;
 }
 
-.event__detail__description {
+.event__details__description {
   font-size: 16px;
   line-height: 22px;
 }
