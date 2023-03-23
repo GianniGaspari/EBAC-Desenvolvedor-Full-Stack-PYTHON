@@ -148,13 +148,13 @@
   max-width: 360px;
 }
 
-.event__details__title {
+.event__detail__title {
   margin-bottom: 16px;
   font-size: 18px;
   font-weight: bold;
 }
 
-.event__details__description {
+.event__detail__description {
   font-size: 16px;
   line-height: 22px;
 }
