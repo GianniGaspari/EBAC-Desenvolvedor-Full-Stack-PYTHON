@@ -41,3 +41,17 @@ const carroMaria2 = new Carro("Clio", "Renault", 2020, 2019);
 
 console.log(carroJoao2);
 console.log(carroMaria2);
+
+
+function Pessoa(nome, idade, altura, peso) {
+    this.nome = nome;
+    this.idade = idade;
+    this.altura = altura;
+    this.peso = peso;
+}
+
+const Gianni = new Pessoa("Gianni Gasparinetti", 34, 180, 79);
+const Thamy = new Pessoa("Thamy Gasparinetti", 34, 160, 63);
+
+console.log(Gianni);
+console.log(Thamy);
