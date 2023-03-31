@@ -95,9 +95,33 @@ const existeAlgumAlunoFullStack = alunos2.some(function(item) {
 
 console.log(existeAlgumAlunoFullStack)
 
+function filtraAlunosBackend(aluno) {
+    return aluno.curso === 'Backend'
+}
 
-// const alunosBackend = alunos2.filter(function(item) {
-//     return item.curso = 'Backend'
-// })
+const alunosBackend = alunos2.filter(filtraAlunosBackend)
 
-// console.log(alunosBackend)
+console.log(alunosBackend)
+
+
+const nums = [10, 20, 30, 10]
+
+const soma = nums.reduce(function(acumulador, itemAtual) {
+    acumulador += itemAtual
+    return acumulador
+}, 0) // 0 é o valor inicial
+
+console.log(soma)
+
+let somaComFor = 0 
+
+for (let i = 0; i < nums.length; i++) {
+    somaComFor += nums[i]
+}
+console.log(somaComFor)
+
+const nomesDosAlunos = alunos2.reduce(function(acumulador, itemAtual) {
+    acumulador += `${itemAtual.nome}, ` // += serve para agregar
+    return acumulador
+}, '')
+console.log(nomesDosAlunos)
