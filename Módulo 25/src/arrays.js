@@ -29,6 +29,13 @@ const alunos2 = alunos.map(function(itemAtual) { // map é bastante utilizado em
 
 console.log(alunos2)
 
+// const numeros = [1, 2, 3, 4, 5]
+// const dobroNumeros = numeros.map(function(numeroAtual) {
+//     // numeroAtual = numeroAtual * 2;
+//     return numeroAtual * 2;
+// })
+
+// console.log(dobroNumeros)
 
 const paula = alunos2.find(function(item) {
     return item.nome == 'Paula' // true or false
@@ -51,11 +58,46 @@ const indiceDoGianni = alunos2.findIndex(function(item) {
 })
 console.log(indiceDoGianni)
 
+const indiceDoGiannii = alunos2.findIndex(function(item) {
+    return item.nome == 'Giannii' // true or false
+})
+console.log(indiceDoGiannii)
 
-// const numeros = [1, 2, 3, 4, 5]
-// const dobroNumeros = numeros.map(function(numeroAtual) {
-//     // numeroAtual = numeroAtual * 2;
-//     return numeroAtual * 2;
+
+alunos2.push({
+    nome: 'Lucio',
+    curso: 'Backend'
+})
+const todosAlunosFrontend = alunos2.every(function(item) {
+    return item.curso === 'Front-end'
+})
+const todosAlunosFrontend2 = alunos2.every(function(item) {
+    return item.curso >= 18
+})
+
+console.log(todosAlunosFrontend)
+console.log(todosAlunosFrontend2)
+
+alunos2.push({
+    nome: 'Giannini',
+    curso: 'FullStack'
+})
+const existeAlgumAlunoBackend = alunos2.some(function(item) {
+    return item.curso === 'Backend' && item.curso === 'Front-end'
+})
+
+console.log(existeAlgumAlunoBackend)
+
+
+const existeAlgumAlunoFullStack = alunos2.some(function(item) {
+    return item.curso === 'FullStack'
+})
+
+console.log(existeAlgumAlunoFullStack)
+
+
+// const alunosBackend = alunos2.filter(function(item) {
+//     return item.curso = 'Backend'
 // })
 
-// console.log(dobroNumeros)
+// console.log(alunosBackend)
