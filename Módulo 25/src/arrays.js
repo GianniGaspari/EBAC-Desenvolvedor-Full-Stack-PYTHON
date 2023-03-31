@@ -29,11 +29,21 @@ const alunos2 = alunos.map(function(itemAtual) { // map é bastante utilizado em
 
 console.log(alunos2)
 
-
-const numeros = [1, 2, 3, 4, 5]
-const dobroNumeros = numeros.map(function(numeroAtual) {
-    // numeroAtual = numeroAtual * 2;
-    return numeroAtual * 2;
+const paula = alunos2.find(function(item) {
+    return item.nome == 'Paula' // true or false
 })
 
-console.log(dobroNumeros)
+console.log(paula)
+
+const gianni = alunos2.find(function(item) {
+    return item.nome == 'Gianni' // true or false
+})
+
+
+// const numeros = [1, 2, 3, 4, 5]
+// const dobroNumeros = numeros.map(function(numeroAtual) {
+//     // numeroAtual = numeroAtual * 2;
+//     return numeroAtual * 2;
+// })
+
+// console.log(dobroNumeros)
