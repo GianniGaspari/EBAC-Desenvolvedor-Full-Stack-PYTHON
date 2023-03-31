@@ -29,15 +29,27 @@ const alunos2 = alunos.map(function(itemAtual) { // map é bastante utilizado em
 
 console.log(alunos2)
 
+
 const paula = alunos2.find(function(item) {
     return item.nome == 'Paula' // true or false
 })
-
 console.log(paula)
+
+const indiceDaPaula = alunos2.findIndex(function(item) {
+    return item.nome == 'Paula' // true or false
+})
+console.log(indiceDaPaula)
+
 
 const gianni = alunos2.find(function(item) {
     return item.nome == 'Gianni' // true or false
 })
+console.log(gianni)
+
+const indiceDoGianni = alunos2.findIndex(function(item) {
+    return item.nome == 'Gianni' // true or false
+})
+console.log(indiceDoGianni)
 
 
 // const numeros = [1, 2, 3, 4, 5]
